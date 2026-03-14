@@ -32,9 +32,9 @@
 ## Phase 5: deploy.sh・ドキュメント・submodule 更新
 - [x] `deploy.sh` に `Sts2ServerLib` ローカル検出ロジックを追加
 - [x] `deploy.sh` に `Sts2ServerLib.dll` のコピーを追加
-- [ ] GitHub リポジトリ `tateishi-s/Sts2ServerLib` を作成
-- [ ] `server/` の内容を GitHub リポジトリにプッシュ
-- [x] `.gitmodules` に `server/` submodule エントリを追加
+- [x] GitHub リポジトリ `tateishi-s/Sts2ServerLib` を作成
+- [x] `server/` の内容を GitHub リポジトリにプッシュ
+- [x] `.gitmodules` に `server/` submodule エントリを追加（`git submodule add`）
 - [x] `README.md` を更新（`server/` の追加）
 - [x] `CLAUDE.md` を更新（アーキテクチャ説明・ビルドコマンド）
 - [x] デプロイ確認: `bash deploy.sh`
