@@ -42,8 +42,8 @@ dotnet test tests/Sts2ServerLib.Tests.csproj --filter "パストラバーサル_
 ### 親プロジェクトからの参照方法
 
 `Directory.Build.props` の `Sts2ServerLibRoot` プロパティで制御:
-- `../Sts2ServerLib/Sts2ServerLib.csproj` が存在する場合 → sibling ローカルリポジトリを優先
-- 存在しない場合 → `server/` submodule を使用
+- `../sts2-server-lib/Sts2ServerLib.csproj` が存在する場合 → sibling ローカルリポジトリを優先
+- 存在しない場合 → `libs/sts2-server-lib/` submodule を使用
 
 ### セキュリティ
 

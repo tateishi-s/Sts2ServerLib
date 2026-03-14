@@ -46,15 +46,15 @@ server.Dispose();
 ### git submodule として追加
 
 ```bash
-git submodule add https://github.com/tateishi-s/Sts2ServerLib server
+git submodule add https://github.com/tateishi-s/Sts2ServerLib libs/sts2-server-lib
 ```
 
 ### ProjectReference で参照
 
 ```xml
-<!-- mod/YourMod.csproj -->
+<!-- src/mod/YourMod.csproj -->
 <ItemGroup>
-  <ProjectReference Include="../Sts2ServerLib/Sts2ServerLib.csproj" />
+  <ProjectReference Include="../../libs/sts2-server-lib/Sts2ServerLib.csproj" />
 </ItemGroup>
 ```
 

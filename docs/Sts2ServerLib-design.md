@@ -19,7 +19,7 @@ Godot・STS2 DLL に一切依存しない純粋な .NET 実装のため、複数
 ### ファイル構成
 
 ```
-server/
+sts2-server-lib/
   Sts2ServerLib.csproj   — プロジェクトファイル
   StateServer.cs         — HTTP サーバー本体
   docs/
@@ -27,11 +27,13 @@ server/
     Sts2ServerLib-todo.md    — 実装 TODO チェックリスト
 ```
 
+利用側プロジェクトでは `libs/sts2-server-lib/` に submodule として配置する。
+
 ### ローカル開発 / submodule の切り替え
 
 `Directory.Build.props` の `Sts2ServerLibRoot` プロパティで制御:
-- `../Sts2ServerLib/Sts2ServerLib.csproj` が存在 → sibling ローカルリポジトリを優先
-- 存在しない場合 → `server/` submodule を使用
+- `../sts2-server-lib/Sts2ServerLib.csproj` が存在 → sibling ローカルリポジトリを優先
+- 存在しない場合 → `libs/sts2-server-lib/` submodule を使用
 
 ### セキュリティ
 
