@@ -6,10 +6,5 @@
     <RootNamespace>Sts2ServerLib</RootNamespace>
   </PropertyGroup>
 
-  <!-- tests/ ディレクトリをライブラリのビルド対象から除外 -->
-  <ItemGroup>
-    <Compile Remove="tests\**" />
-    <EmbeddedResource Remove="tests\**" />
-    <None Remove="tests\**" />
-  </ItemGroup>
+
 </Project>

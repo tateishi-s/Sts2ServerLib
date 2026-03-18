@@ -18,6 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sts2ServerLib.csproj" />
+    <ProjectReference Include="..\src\Sts2ServerLib.csproj" />
   </ItemGroup>
 </Project>

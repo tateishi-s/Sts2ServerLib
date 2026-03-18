@@ -10,7 +10,7 @@ Slay the Spire 2 MOD 向けの汎用 HTTP サーバーライブラリ。Godot・
 
 ```bash
 # ライブラリのビルド（tests/ は含まれない）
-dotnet build Sts2ServerLib.csproj
+dotnet build src/Sts2ServerLib.csproj
 
 # テスト実行
 dotnet test tests/Sts2ServerLib.Tests.csproj

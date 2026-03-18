@@ -54,7 +54,7 @@ git submodule add https://github.com/tateishi-s/Sts2ServerLib libs/sts2-server-l
 ```xml
 <!-- src/mod/YourMod.csproj -->
 <ItemGroup>
-  <ProjectReference Include="../../libs/sts2-server-lib/Sts2ServerLib.csproj" />
+  <ProjectReference Include="../../libs/sts2-server-lib/src/Sts2ServerLib.csproj" />
 </ItemGroup>
 ```
 
